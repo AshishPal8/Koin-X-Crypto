@@ -48,7 +48,7 @@ const Trending = () => {
               </div>
               <div className="bg-[#EBF9F4] text-[#14B079] py-1 px-3 rounded-lg w-fit flex items-center">
                 <IoMdArrowDropup />
-                <p>{coin.item.price_btc}%</p>
+                <p>{coin.item.price_btc.toFixed(2)}%</p>
               </div>
             </div>
           ))}

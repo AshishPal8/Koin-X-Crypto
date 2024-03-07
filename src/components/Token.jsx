@@ -6,15 +6,17 @@ const Token = () => {
     <div className="bg-white rounded-lg py-4 px-2 md:px-8 mt-4">
       <h1 className="text-3xl font-semibold">Tokenomics</h1>
       <h3 className="text-2xl font-semibold my-5">Initial Distribution</h3>
-      <div>
-        <div>{/* <DoughnutChart /> */}</div>
+      <div className="flex items-center flex-col md:flex-row gap-4">
         <div>
+          <DoughnutChart />
+        </div>
+        <div className="flex flex-col gap-5">
           <div className="flex gap-2 items-center">
             <div className="w-4 h-4 rounded-full bg-blue-600"></div>
             <p>Crowdsale investors: 80%</p>
           </div>
           <div className="flex gap-2 items-center">
-            <div className="w-4 h-4 rounded-full bg-orange-600"></div>
+            <div className="w-4 h-4 rounded-full bg-[#FFA500]"></div>
             <p>Foundations: 20%</p>
           </div>
         </div>
